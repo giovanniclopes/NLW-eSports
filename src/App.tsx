@@ -1,3 +1,4 @@
+import { MagnifyingGlassPlus } from 'phosphor-react';
 import './styles/main.css';
 import logoImg from './assets/logo-nlw-esports.svg';
 
@@ -9,6 +10,11 @@ function App() {
       <h1 className='text-6xl text-white font-black mt-20'>
         Seu <span className='bg-nwl-gradient text-transparent bg-clip-text'>duo</span> está aqui.
       </h1>
+
+
+      <h1 className='text-[5rem] text-orange-600 font-black'>Video aula 2 parado em 01:02:40</h1>
+      <p className='text-xl text-white font-bold'>apagar isso dps q começar a aula</p>
+
 
       <div className='grid grid-cols-6 gap-6 mt-16'>
         <a href="" className='relative rounded-lg overflow-hidden'>
@@ -62,7 +68,8 @@ function App() {
             <strong className='text-2xl text-white font-black block'>Não encontrou seu duo?</strong>
             <span className='text-zinc-400 block'>Publique um anúncio para encontrar novos players!</span>
           </div>
-          <button className='py-3 px-4 bg-violet-500 text-white transition-all rounded hover:bg-violet-600'>
+          <button className='py-3 px-4 bg-violet-500 text-white transition-all rounded flex items-center gap-3 hover:bg-violet-600'>
+            <MagnifyingGlassPlus size={24}/>
             Publicar anúncio
             </button>
         </div>
