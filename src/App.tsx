@@ -10,12 +10,6 @@ function App() {
       <h1 className='text-6xl text-white font-black mt-20'>
         Seu <span className='bg-nwl-gradient text-transparent bg-clip-text'>duo</span> está aqui.
       </h1>
-
-
-      <h1 className='text-[5rem] text-orange-600 font-black'>Video aula 2 parado em 01:02:40</h1>
-      <p className='text-xl text-white font-bold'>apagar isso dps q começar a aula</p>
-
-
       <div className='grid grid-cols-6 gap-6 mt-16'>
         <a href="" className='relative rounded-lg overflow-hidden'>
           <img src="/game-1.png" alt="" />
